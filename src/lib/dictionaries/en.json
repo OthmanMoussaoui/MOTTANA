@@ -1,0 +1,60 @@
+{
+  "navigation": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "AI through a Moroccan Lens",
+      "subtitle": "Exploring the intersection of artificial intelligence and Moroccan culture"
+    },
+    "intro": {
+      "title": "Where Technology Meets Tradition",
+      "description": "Discover projects that bridge the gap between cutting-edge AI technology and Morocco's rich cultural heritage."
+    },
+    "featured": {
+      "title": "Featured Projects",
+      "viewAll": "View All Projects"
+    }
+  },
+  "gallery": {
+    "title": "Project Gallery",
+    "filters": {
+      "all": "All Projects",
+      "ai": "AI Generation",
+      "culture": "Cultural Heritage",
+      "design": "Design"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "vision": {
+      "title": "Our Vision",
+      "description": "We are dedicated to preserving and celebrating Moroccan cultural identity in the digital age through innovative AI solutions."
+    },
+    "journey": {
+      "title": "Our Journey",
+      "description": "Explore our path of merging traditional Moroccan aesthetics with modern technology."
+    }
+  },
+  "blog": {
+    "title": "Latest Articles",
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "language": "Language"
+  }
+} 

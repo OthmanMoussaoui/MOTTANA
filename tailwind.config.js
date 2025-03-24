@@ -1,0 +1,87 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // Moroccan-inspired color palette
+        'morocco-blue': {
+          50: '#eef7ff',
+          100: '#d9edff',
+          200: '#bce0ff',
+          300: '#8ecdff',
+          400: '#59b0ff',
+          500: '#3591fd',
+          600: '#2173f3',
+          700: '#1b5edf',
+          800: '#1d4db5',
+          900: '#1d438d',
+        },
+        'morocco-red': {
+          50: '#fff1f2',
+          100: '#ffe3e4',
+          200: '#ffcacf',
+          300: '#ffa2aa',
+          400: '#fe6d7a',
+          500: '#f53e51',
+          600: '#e11937',
+          700: '#be122f',
+          800: '#9d142e',
+          900: '#83162d',
+        },
+        'morocco-green': {
+          50: '#f1fdf3',
+          100: '#dffbe5',
+          200: '#bff5ce',
+          300: '#8eeaac',
+          400: '#5cd986',
+          500: '#30be67',
+          600: '#219b52',
+          700: '#1c7c45',
+          800: '#1b623a',
+          900: '#175132',
+        },
+        'morocco-sand': {
+          50: '#fbf9f0',
+          100: '#f7f1db',
+          200: '#eee1bb',
+          300: '#e5cd91',
+          400: '#dcb466',
+          500: '#d49b47',
+          600: '#c4803a',
+          700: '#a36432',
+          800: '#85502d',
+          900: '#6e4327',
+        },
+        'morocco-clay': {
+          50: '#fcf8f6',
+          100: '#f8eeea',
+          200: '#f2d9d0',
+          300: '#e9bcad',
+          400: '#df9484',
+          500: '#d47865',
+          600: '#c15c4a',
+          700: '#a04a3c',
+          800: '#834035',
+          900: '#6c3831',
+        },
+      },
+      backgroundImage: {
+        'zellige-pattern': "url('/images/zellige-pattern.svg')",
+        'moroccan-texture': "url('/images/moroccan-texture.jpg')",
+      },
+      fontFamily: {
+        sans: ['var(--font-geist-sans)'],
+        mono: ['var(--font-geist-mono)'],
+      },
+      borderRadius: {
+        'moroccan': '0.75rem 0.25rem 0.75rem 0.25rem',
+      },
+    },
+  },
+  plugins: [require('@tailwindcss/forms')],
+} 

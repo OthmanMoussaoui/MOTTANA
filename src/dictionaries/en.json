@@ -1,0 +1,101 @@
+{
+  "navigation": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "title": "AI Through a Moroccan Lens",
+      "subtitle": "Exploring the intersection of artificial intelligence and Moroccan cultural identity"
+    },
+    "intro": {
+      "title": "Bridging Technology and Tradition",
+      "description": "Our project combines cutting-edge AI technologies with Morocco's rich cultural heritage to create something truly unique."
+    },
+    "featured": {
+      "title": "Featured Projects",
+      "viewAll": "View all projects"
+    },
+    "explore": "Explore Gallery",
+    "learnMore": "Learn More",
+    "featuredProjects": "Featured Projects",
+    "viewAll": "View All Projects",
+    "contactUs": "Contact Us"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "filters": {
+      "all": "All",
+      "ai": "AI",
+      "culture": "Culture",
+      "design": "Design"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "vision": {
+      "title": "Our Vision",
+      "content": "We aim to explore and showcase the beautiful intersection between artificial intelligence and Moroccan cultural identity."
+    },
+    "timeline": {
+      "title": "Project Timeline",
+      "phases": [
+        {
+          "title": "Research Phase",
+          "description": "Studying the cultural elements that define Moroccan identity."
+        },
+        {
+          "title": "Development Phase",
+          "description": "Creating AI models trained on Moroccan cultural data."
+        },
+        {
+          "title": "Implementation Phase",
+          "description": "Building applications that showcase the fusion of AI and Moroccan culture."
+        },
+        {
+          "title": "Exhibition Phase",
+          "description": "Sharing our work with the world through exhibitions and online platforms."
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "members": [
+        {
+          "name": "Fatima Zahra",
+          "role": "Project Lead",
+          "bio": "A specialist in AI with a passion for cultural preservation."
+        },
+        {
+          "name": "Omar",
+          "role": "Technical Lead",
+          "bio": "Expert in machine learning and computer vision algorithms."
+        },
+        {
+          "name": "Layla",
+          "role": "Cultural Advisor",
+          "bio": "An anthropologist specializing in Moroccan cultural heritage."
+        },
+        {
+          "name": "Youssef",
+          "role": "UI/UX Designer",
+          "bio": "Designer with experience in blending traditional aesthetics with modern interfaces."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "copyright": "© 2023 AI Through a Moroccan Lens. All rights reserved."
+    },
+    "social": {
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    }
+  }
+} 
