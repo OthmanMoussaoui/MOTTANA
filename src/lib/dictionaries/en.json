@@ -4,7 +4,8 @@
     "gallery": "Gallery",
     "about": "About Us",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "home": {
     "hero": {
@@ -18,7 +19,12 @@
     "featured": {
       "title": "Featured Projects",
       "viewAll": "View All Projects"
-    }
+    },
+    "explore": "Explore Gallery",
+    "learnMore": "Learn More",
+    "featuredProjects": "Featured Projects",
+    "viewAll": "View All",
+    "contactUs": "Contact Us"
   },
   "gallery": {
     "title": "Project Gallery",
@@ -33,11 +39,57 @@
     "title": "About Us",
     "vision": {
       "title": "Our Vision",
-      "description": "We are dedicated to preserving and celebrating Moroccan cultural identity in the digital age through innovative AI solutions."
+      "description": "We are dedicated to preserving and celebrating Moroccan cultural identity in the digital age through innovative AI solutions.",
+      "content": "Our mission is to bridge the gap between traditional Moroccan artistry and modern technology, creating a unique fusion that honors our heritage while embracing innovation."
     },
     "journey": {
       "title": "Our Journey",
       "description": "Explore our path of merging traditional Moroccan aesthetics with modern technology."
+    },
+    "team": {
+      "title": "Our Team",
+      "members": [
+        {
+          "name": "Ahmed Alaoui",
+          "role": "Founder & AI Researcher",
+          "bio": "Leading the intersection of AI and Moroccan cultural preservation."
+        },
+        {
+          "name": "Fatima Zahra",
+          "role": "Cultural Heritage Expert",
+          "bio": "Ensuring authentic representation of Moroccan traditions in our digital projects."
+        },
+        {
+          "name": "Younes Berrada",
+          "role": "Lead Developer",
+          "bio": "Bringing technical expertise to transform cultural concepts into digital reality."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Our Timeline",
+      "phases": [
+        {
+          "title": "Project Inception",
+          "description": "The idea to merge AI technology with Moroccan cultural elements was born"
+        },
+        {
+          "title": "First Prototype",
+          "description": "Development of our first AI model trained on Moroccan patterns"
+        },
+        {
+          "title": "Public Launch",
+          "description": "Launch of our platform showcasing AI-generated Moroccan-inspired art"
+        },
+        {
+          "title": "Cultural Partnerships",
+          "description": "Collaboration with Moroccan cultural institutions to preserve heritage"
+        },
+        {
+          "title": "International Recognition",
+          "description": "Our projects received international attention and awards"
+        }
+      ]
     }
   },
   "blog": {
@@ -55,6 +107,16 @@
   },
   "footer": {
     "rights": "All Rights Reserved",
-    "language": "Language"
+    "language": "Language",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "copyright": "© 2024 AI Through a Moroccan Lens. All rights reserved."
+    },
+    "social": {
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    }
   }
 } 

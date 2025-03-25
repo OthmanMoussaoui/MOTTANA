@@ -22,24 +22,25 @@ export const metadata: Metadata = {
   description: 'Exploring the intersection of AI technology and Moroccan cultural identity',
 };
 
+type Params = Promise<{ locale: string }>;
+
 interface RootLayoutProps {
   children: React.ReactNode;
-  params: {
-    locale: string;
-  };
+  params: Params;
 }
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default function RootLayout({ children, params }: RootLayoutProps) {
+export default async function RootLayout({ children, params }: RootLayoutProps) {
+  const resolvedParams = await params;
   // Validate that the incoming locale is supported
-  if (!isValidLocale(params.locale)) {
+  if (!isValidLocale(resolvedParams.locale)) {
     notFound();
   }
 
-  const locale = params.locale as Locale;
+  const locale = resolvedParams.locale as Locale;
   const dir = localeDirection[locale];
 
   return (

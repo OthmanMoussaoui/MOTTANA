@@ -1,11 +1,7 @@
-"use client"
-
 import Image from 'next/image';
-import React, { useState, useEffect } from 'react';
 import { getDictionary } from '@/lib/getDictionary';
 import Layout from '@/components/Layout';
 import type { Locale } from '@/lib/i18n';
-import type { Dictionary } from '@/lib/types';
 
 // Timeline data
 const timelineEvents = [
@@ -55,27 +51,13 @@ const teamMembers = [
   },
 ];
 
-export default function AboutPage({
-  params,
-}: {
-  params: { locale: string };
-}) {
+type Params = Promise<{ locale: string }>;
+
+export default async function Page(props: { params: Params }) {
+  const params = await props.params;
   const locale = params.locale;
-  const [dictionary, setDictionary] = useState<Dictionary | null>(null);
-  const [isArabic, setIsArabic] = useState(locale === 'ar');
-
-  useEffect(() => {
-    async function loadDictionary() {
-      const dict = await getDictionary(locale as Locale);
-      setDictionary(dict);
-      setIsArabic(locale === 'ar');
-    }
-    loadDictionary();
-  }, [locale]);
-
-  if (!dictionary) {
-    return <div>Loading...</div>;
-  }
+  const dictionary = await getDictionary(locale as Locale);
+  const isArabic = locale === 'ar';
 
   return (
     <Layout dictionary={dictionary} locale={locale}>
