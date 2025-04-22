@@ -1,0 +1,192 @@
+{
+  "navigation": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "gallery3d": "3D Gallery",
+    "gallery3dHilbert": "Hilbert Gallery",
+    "about": "About Us"
+  },
+  "home": {
+    "hero": {
+      "title": "MOTTANA: Moroccan Culture & AI",
+      "subtitle": "Exploring the intersection of artificial intelligence and Moroccan cultural heritage",
+      "cta": "Explore Projects"
+    },
+    "intro": {
+      "title": "Bridging Technology and Tradition",
+      "description": "Our projects showcase how modern AI technologies can be inspired by and preserve the rich cultural heritage of Morocco. From pattern recognition in traditional textiles to AI-generated art based on Moroccan geometric designs, we're creating a digital space where innovation meets tradition."
+    },
+    "featured": {
+      "title": "Featured Projects",
+      "viewAll": "View All Projects"
+    }
+  },
+  "gallery": {
+    "title": "Moroccan Art Gallery",
+    "description": "Explore AI-generated interpretations of Moroccan cultural heritage and artistic traditions",
+    "viewDetails": "View Details",
+    "culturalContext": "Cultural Context",
+    "loading": "Loading projects...",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "id": "ID",
+    "back": "Back to Gallery",
+    "categories": {
+      "traditional": "Traditional Arts",
+      "people": "People & Culture",
+      "architecture": "Architecture",
+      "patterns": "Patterns & Geometry"
+    },
+    "titles": {
+      "tborida": "Moroccan Tborida Show",
+      "dress": "Moroccan Mother in Traditional Dress",
+      "tiles": "Geometric Moroccan Tile Patterns",
+      "astrology": "Arabian Tile Astrology Pattern",
+      "bicycle": "Moroccan Boys with Bicycle",
+      "fakhar": "Moroccan Fakhar Craftsman",
+      "loom": "Traditional Moroccan Loom",
+      "child": "Child with Ball",
+      "cat": "Cat in the Blue City",
+      "woodworker": "Moroccan Wood Worker",
+      "jemaa": "Man in Jemaa el-Fnaa",
+      "tannery": "Fes Tannery Worker",
+      "regions": "South Meets North Morocco",
+      "architecture": "Moroccan Architecture",
+      "fighter": "Moroccan Woman Fighter",
+      "amazigh": "Amazigh Woman"
+    },
+    "artDescriptions": {
+      "tborida": "A festival celebrating the traditional Moroccan equestrian art of Tborida, also known as Fantasia.",
+      "dress": "A Moroccan mother wearing a traditional red dress with cultural decorative elements.",
+      "tiles": "Traditional geometric Moroccan tile patterns showcasing intricate Islamic art designs.",
+      "astrology": "Beautiful medieval Arabian tile pattern with astrological motifs.",
+      "bicycle": "Two Moroccan boys playing with a bicycle, capturing everyday life and childhood in Morocco.",
+      "fakhar": "A traditional Moroccan craftsman working on fakhar pottery, preserving ancient techniques.",
+      "loom": "A traditional Moroccan loom used for weaving textiles and carpets.",
+      "child": "A middle-aged child holding a ball, representing youth and play in Moroccan culture.",
+      "cat": "A cat sitting on the steps of an ancient blue city, likely Chefchaouen.",
+      "woodworker": "A traditional craftsman working with wood, showcasing Moroccan craftsmanship.",
+      "jemaa": "A portrait of a man in Jemaa el-Fnaa, the famous square in Marrakech.",
+      "tannery": "A man working at Dar Dbagha, the famous tanneries of Fes.",
+      "regions": "An artistic representation of the meeting of Northern and Southern Moroccan cultures.",
+      "architecture": "A stunning example of traditional Moroccan architectural elements.",
+      "fighter": "A depiction of a Moroccan woman warrior, representing strength and resistance.",
+      "amazigh": "Portrait of an Amazigh woman with traditional facial tattoos and jewelry."
+    },
+    "culturalContexts": {
+      "tborida": "Tborida is a traditional exhibition of horsemanship in Morocco where riders in colorful attire charge and fire muskets in a synchronized manner, symbolizing the historical cavalry of Morocco.",
+      "dress": "Traditional clothing in Morocco represents cultural identity, social status, and regional heritage, with distinctive styles, colors, and embroidery techniques.",
+      "tiles": "Moroccan geometric patterns are derived from Islamic art traditions, which emphasize mathematical precision and harmony. These patterns often represent the infinite nature of Allah.",
+      "astrology": "Astrology and astronomy were highly developed sciences in the medieval Islamic world, often represented in decorative arts through celestial symbols and geometric patterns.",
+      "bicycle": "This image represents the simplicity and joy of childhood in Morocco, where shared toys and street games are an important part of growing up.",
+      "fakhar": "Fakhar (pottery) is one of Morocco's oldest crafts, dating back centuries. Each region has its distinctive style, with Fes and Safi being particularly renowned for their ceramic traditions.",
+      "loom": "Weaving is a vital craft in Morocco, with techniques passed down through generations. Different regions specialize in different styles, from the pile rugs of the Middle Atlas to the flat-weaves of the High Atlas.",
+      "child": "Children's games are an important aspect of Moroccan social life, with many traditional games still played alongside modern sports.",
+      "cat": "Chefchaouen, known as the 'Blue Pearl' of Morocco, is famous for its striking blue-washed buildings. Cats are a common sight in Moroccan cities and are generally well-regarded in Islamic culture.",
+      "woodworker": "Woodworking is a distinguished craft in Morocco, with cedar wood from the Middle Atlas being particularly prized for furniture, ceilings, and decorative items.",
+      "jemaa": "Jemaa el-Fnaa is the cultural heart of Marrakech, a UNESCO-recognized space where storytellers, musicians, and performers have gathered for centuries.",
+      "tannery": "The tanneries of Fes date back to the medieval period and still use traditional methods to produce Morocco's famous leather. The process involves numerous natural materials, including pigeon droppings for softening the hides.",
+      "regions": "Morocco's geographic diversity has led to distinct cultural traditions between the northern Mediterranean-influenced regions and the southern Saharan areas.",
+      "architecture": "Moroccan architecture blends Amazigh, Andalusian, and Arab influences, characterized by intricate geometric patterns, horseshoe arches, and ornate tile work.",
+      "fighter": "Throughout Moroccan history, women have played crucial roles in resistance movements, from fighting colonial powers to leading social change.",
+      "amazigh": "The Amazigh (Berber) people are the indigenous inhabitants of North Africa. Traditional Amazigh women's tattoos and jewelry have deep cultural significance, often representing tribal identity, protection, and fertility."
+    }
+  },
+  "gallery3d": {
+    "title": "3D Gallery Experience",
+    "description": "Immerse yourself in our interactive 3D gallery of AI-generated Moroccan art",
+    "instructions": "Interactive Moroccan Gallery",
+    "clickArtworks": "Click artworks to view details",
+    "teleportPoints": "Click colored circles to teleport quickly",
+    "keyboardControls": "Use arrow keys or WASD to move around",
+    "viewControls": "View Controls",
+    "frontWall": "Front Wall",
+    "rightWall": "Right Wall",
+    "backWall": "Back Wall",
+    "leftWall": "Left Wall",
+    "center": "Center",
+    "map": "Gallery Map",
+    "firstPersonMode": "First Person Mode",
+    "orbitMode": "Orbit Mode",
+    "movementControls": "Movement Controls",
+    "interactionControls": "Interaction",
+    "wasdKeys": "WASD or Arrow Keys to move",
+    "qeKeys": "Q/E to rotate view in First Person",
+    "shiftKey": "Hold SHIFT to run",
+    "vKey": "V to toggle between Orbit/First Person",
+    "hKey": "H to hide/show these instructions",
+    "startExploring": "Start Exploring",
+    "move": "Move",
+    "run": "Run",
+    "rotate": "Rotate View",
+    "help": "Show Help",
+    "aboutMoroccanGallery": "About This Moroccan Gallery",
+    "galleryDescription": "This interactive 3D gallery showcases the rich cultural heritage of Morocco through a collection of artworks and traditional architectural elements. The space is designed to reflect authentic Moroccan aesthetics with elements like zellige tilework, horseshoe arches, and traditional lighting.",
+    "immersiveExperience": "Immerse yourself in this virtual Moroccan riad and discover the beauty of Moroccan art, craftsmanship, and architectural traditions. Navigate the space in either first-person or orbit view modes for different perspectives.",
+    "artisticElements": "Featured Moroccan Artistic Elements",
+    "zellige": "Zellige - Geometric mosaic tilework",
+    "arches": "Horseshoe arches - Distinctive Moroccan architectural feature",
+    "lanterns": "Moroccan lanterns with traditional filigree patterns",
+    "fountain": "Central fountain - A feature of traditional Moroccan riads",
+    "colors": "Rich color palette featuring blues, terracotta, and gold"
+  },
+  "gallery3dHilbert": {
+    "title": "3D Hilbert Maze Gallery",
+    "subtitle": "Explore Moroccan Art through a Hilbert Curve Maze",
+    "aboutTitle": "About This Gallery",
+    "aboutDescription": "This 3D gallery features a unique layout based on the Hilbert curve - a continuous fractal space-filling curve. This maze-like structure creates an immersive exploration experience that reveals Moroccan artwork throughout the journey.",
+    "navigationNote": "Use your keyboard (WASD or arrow keys) to navigate and your mouse to look around. Use the V key to toggle between first-person and orbit view modes."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about our mission to bridge AI technology with Moroccan cultural heritage",
+    "mission": {
+      "title": "Our Mission",
+      "description": "We are dedicated to preserving and celebrating Moroccan cultural identity in the digital age through innovative AI technologies. By combining traditional Moroccan aesthetics with cutting-edge artificial intelligence, we create projects that honor the past while embracing the future."
+    },
+    "team": {
+      "title": "Meet the Artist",
+      "description": "The visionary behind our AI-powered Moroccan art projects"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "Email",
+      "social": "Social Media"
+    }
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Zellige Pattern Generator",
+      "description": "AI-powered generator that creates new geometric patterns inspired by traditional Moroccan zellige tilework",
+      "category": "art",
+      "technologies": ["TensorFlow", "GAN", "Python"],
+      "culturalContext": "Zellige is a form of Islamic art consisting of geometrically patterned mosaics used in traditional Moroccan architecture"
+    },
+    {
+      "id": "2",
+      "title": "Moroccan Textile Analyzer",
+      "description": "Computer vision system that identifies patterns and techniques in traditional Moroccan textiles",
+      "category": "pattern",
+      "technologies": ["PyTorch", "OpenCV", "Transfer Learning"],
+      "culturalContext": "Moroccan textiles feature distinctive patterns that vary by region, with each design telling stories of cultural significance"
+    },
+    {
+      "id": "3",
+      "title": "Darija-Arabic Translator",
+      "description": "Neural machine translation model specialized in Moroccan Darija dialect to Modern Standard Arabic",
+      "category": "language",
+      "technologies": ["Transformer Models", "NLP", "TensorFlow"],
+      "culturalContext": "Darija is the Moroccan Arabic dialect with influences from Berber, French, and Spanish languages"
+    },
+    {
+      "id": "4",
+      "title": "Moroccan Architecture Generator",
+      "description": "3D model generator for Moroccan architectural elements using machine learning",
+      "category": "art",
+      "technologies": ["Three.js", "ML", "WebGL"],
+      "culturalContext": "Moroccan architecture is known for its riads, intricate woodwork, and distinctive arches and domes"
+    }
+  ]
+}
